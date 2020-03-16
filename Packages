@@ -1,15 +1,16 @@
-Package: com.megadev.bonzibuddy
-Version: 0.1-1
+Package: com.megadev.coronacounter
+Version: 1
 Architecture: iphoneos-arm
-Installed-Size: 1400
-Depends: mobilesubstrate,ws.hbang.common
-Filename: debs/com.megadev.bonzibuddy_0.1-1_iphoneos-arm.deb
-Size: 796450
-MD5sum: 1dc196c66dfa5a5059daf4dcaf656a34
-SHA1: d5bee7b07d1b62932969e6aedc68caa370128ba3
-SHA256: ea2db7083a374737041b7ae658582f8ab67362d7ddeee793e648b29e9c2a05d3
+Maintainer: MegaDev
+Installed-Size: 348
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Filename: debs/com.megadev.coronacounter_1_iphoneos-arm.deb
+Size: 69878
+MD5sum: 316b0998a2935389ca3e8a9e45cca8c8
+SHA1: ccdeed927c50a63244b1764e468e3ded6a6f3240
+SHA256: d7d4e3d618ae5a0b5a8ab231d2df754b53a90cb841fe53cb8bcf7e971d71659d
 Section: Tweaks
-Description: Bonzi Buddy ported to iOS. ofcourse without the malware :) ! (commands comming soon)
-Author: megadev
-Name: BonziBuddy
+Description: Shows Corona cases in statusbar
+Author: MegaDev
+Name: CoronaCount
 
