@@ -4,7 +4,7 @@ Architecture: iphoneos-arm
 Maintainer: MegaDev
 Installed-Size: 348
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
-Filename: debs/com.megadev.coronacounter_1_iphoneos-arm.deb
+Filename: ./debs/com.megadev.coronacounter_1_iphoneos-arm.deb
 Size: 69878
 MD5sum: 316b0998a2935389ca3e8a9e45cca8c8
 SHA1: ccdeed927c50a63244b1764e468e3ded6a6f3240
@@ -12,5 +12,21 @@ SHA256: d7d4e3d618ae5a0b5a8ab231d2df754b53a90cb841fe53cb8bcf7e971d71659d
 Section: Tweaks
 Description: Shows Corona cases in statusbar
 Author: MegaDev
+Name: CoronaCount
+
+Package: com.megadev.coronacounter
+Version: 2.1-1
+Architecture: iphoneos-arm
+Maintainer: MegaDev & Simon021
+Installed-Size: 396
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Filename: ./debs/com.megadev.coronacounter_2.1-1_iphoneos-arm.deb
+Size: 113934
+MD5sum: a65d88a98cead5f00db19268f3835207
+SHA1: 3b7f6a2d185616b9e254a560fa36ddf667677418
+SHA256: 4bcf0905406f4e8552d58c3ea1e6b6c48d0f6cce981733dad062135af6eeda46
+Section: Tweaks
+Description: Shows COVID-19 cases in statusbar.
+Author: MegaDev & Simon021
 Name: CoronaCount
 
