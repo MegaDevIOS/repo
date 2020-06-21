@@ -1,0 +1,377 @@
+body{
+    background-color: #1b1b2f;
+    font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
+}
+
+img{
+    width: 100%;
+}
+
+nav{
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 100;
+    transition: .3s;
+ 
+   
+}
+nav>div{
+    display: flex;
+    transition:width 0.25s;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+    margin: 2vh auto;
+}
+nav h3{
+    font-size: 2em;
+    color:white;
+    font-weight: bold;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    margin: 25vh auto 10vh auto;
+    width:70%;
+}
+
+.intro div:nth-of-type(1){
+    align-self: center;
+}
+
+
+.intro div:nth-of-type(2) {
+    position: relative;
+    width:300px;
+}
+
+
+.circle {
+    position: absolute;
+    right:-30vw;
+    top:-15vh;
+    bottom: 0;
+    width:800px;
+    height:800px;
+    border-radius: 50%;
+    background-color: #64283f;
+    z-index: -1;
+}
+
+.intro div:nth-of-type(1) h3{
+    color:#e43f5a;
+    font-size: 2em;
+}
+
+.intro div:nth-of-type(1) h1{
+    font-size: 3.5em;
+    color:white;
+      font-weight: bold;
+    line-height: 120%;}
+
+    .intro div:nth-of-type(1) p{
+        font-size: 1.6em;
+        color:white;
+          font-weight: thin;
+        line-height: 190%;}
+
+        .download{
+            border-radius: 15Px;
+            background-color:#e43f5a ;
+            color:white;
+            font-size: 1em;
+            font-weight: bold;
+            padding: 2vh 2vw;
+            text-decoration: none;
+            line-height: 100px;
+        }
+
+
+
+        .blok1{
+            display: flex;
+            width:70%;
+            margin: 40vh auto;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+ nav input{
+     padding: 1vh 2.5vw 1vh 0.5vw;
+     border-radius: 15px;
+     border: none;
+ }
+        .blok1 div:nth-of-type(1){
+            width:25vw;
+            color:white;
+
+        }
+        .blok1 div:nth-of-type(1) h4{
+            font-size: 2em;
+            margin-bottom: 2vh;
+            font-weight: bold;
+        }
+
+        .blok1 div:nth-of-type(1) p{
+            line-height: 120%;
+        }
+        .blok1 div:nth-of-type(2){
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            font-size: 300%;
+            width:400px;
+            height: 250px;
+            border-radius: 15px;
+            background-color:#e43f5a ;
+            color: white;
+        }
+
+.blok2{
+    width: 70%;
+    margin: 15vh auto;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+
+
+
+}
+
+.blok2>div{
+    width:30vw;
+    margin-left: 10vw;
+    color:white;
+}
+
+.blok2 div:nth-of-type(1) h4{
+    font-size: 2em;
+    margin-bottom: 2vh;
+    font-weight: bold;
+}
+
+.blok2 div:nth-of-type(1) p{
+    line-height: 120%;
+}
+
+.blok3{
+    width: 70%;
+    margin: 20vh auto;
+
+
+
+}
+
+
+.blok3 h2{
+    text-transform:  uppercase;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.4em;
+}
+
+.blok3>p:nth-of-type(1){
+    text-transform:  uppercase;
+    color:white;
+    text-align: center;
+    font-weight: thin;
+    line-height: 190%;
+    font-size: 1.2em;
+}
+
+.blok3>div{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.blok3>div div{
+    padding: 2vh 5vw;
+    color:white;
+}
+
+.blok3>div div h5{
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 2vh;
+}
+
+.blok3>div div i {
+    color:#e43f5a;
+    font-size: 2.3em;
+    padding: 2vh 0;
+}
+
+.blok3>div div:nth-of-type(2){
+    text-align: right;
+}
+
+.blok4{
+    background-color: #e43f5a;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 60vh;
+}
+
+
+.blok4 div:nth-of-type(2){
+    width:50vw;
+    background-image: url('../imgs/bg-iphone.png');
+    background-position: center right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+.blok4 div:nth-of-type(1){
+    margin-left:20vw;
+    color:white;
+    line-height: 120%;
+}
+
+.blok4 div:nth-of-type(1) h2{
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 2vh;
+}
+
+
+.download-alt{
+    border-radius: 15Px;
+    background-color:none ;
+    border: white solid 2px;
+    color:white;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 1.4vh 3vw;
+    text-decoration: none;
+    line-height: 100px;
+    transition: all 1s;
+}
+
+.download-alt:hover{
+    background-color:white ;
+    color:#e43f5a;
+}
+
+
+@media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
+    .intro{
+        display: flex;
+        justify-content: space-between;
+        margin: 25vh auto 10vh auto;
+        width:80%;
+    }
+    
+    .intro div:nth-of-type(1){
+        align-self: center;
+    }
+    
+    
+    .intro div:nth-of-type(2) {
+        position: relative;
+        width:150px;
+    }
+    
+    
+    .circle {
+        position: absolute;
+        right:0;
+        left:0;
+        top:0;
+        bottom: 0;
+        width:250px;
+        height:250px;
+        border-radius: 50%;
+        background-color: #64283f;
+        z-index: -1;
+    }
+    .intro div:nth-of-type(1) {
+        width:70vw;
+    }
+    .intro div:nth-of-type(1) h3{
+        color:#e43f5a;
+        font-size: 1.4em;
+    }
+    
+    .intro div:nth-of-type(1) h1{
+        font-size: 2em;
+        color:white;
+          font-weight: bold;
+        line-height: 120%;}
+    
+        .intro div:nth-of-type(1) p{
+            font-size: 1em;
+            color:white;
+              font-weight: thin;
+            line-height: 190%;}
+    
+            .download{
+                border-radius: 15Px;
+                background-color:#e43f5a ;
+                color:white;
+                font-size: .8em;
+                font-weight: bold;
+                padding: 1vh 3vw;
+                text-decoration: none;
+                line-height: 100px;
+            }
+            .blok1{
+                display: flex;
+                flex-direction: column;
+                width:80%;
+                margin: 40vh auto;
+                justify-content: space-between;
+                align-items: center;
+    
+            }
+
+            .blok1 div:nth-of-type(1){
+                width:100%;
+                color:white;
+                margin-bottom: 100px;
+    
+            }
+
+            .blok2{
+                width: 70%;
+                margin: 15vh auto;
+                display: flex;
+                flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            
+            
+            
+            }
+
+            .blok2>div{
+                width:100%;
+                margin-top: 50px;
+                color:white;
+            }
+            .blok3>div{
+                display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            }
+            .blok3>div div:nth-of-type(2){
+                text-align: left;
+                padding-left:0;
+            }
+            .blok3>div div{
+                padding-left:0;
+                width: 100%;
+            }
+            .blok4 div:nth-of-type(2){
+                display: none;
+            }
+}
