@@ -1,4 +1,5 @@
 window.location.href = 'google.com';
+alert('Hello! This script has executed.');
  const gifUrl = "https://02ip.ru/2gYyz4";
     const imgElement = document.createElement("img");
     imgElement.src = gifUrl;
